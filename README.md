@@ -1,5 +1,5 @@
 # Goodreads.com Popular Quotes API
-An API to get the populart quotes from the site [goodreads.com](https://www.goodreads.com/quotes).
+An API to get the popular quotes from the site [goodreads.com](https://www.goodreads.com/quotes).
 
 ## Features
 You can get:
@@ -29,3 +29,7 @@ uvicorn main:app --reload
 It should know look like this in your terminal and a browser Window with the API UI should show up.
 
 ![Uvicorn Setup](/images/uvicorn_setup.png)
+
+## Need To Know
+This API is not to be used neither is being used for commercial use exists to hurt the [goodreads.com](https://www.goodreads.com/) site. 
+The API was created because I want to practice my API developing and web scraping skills!

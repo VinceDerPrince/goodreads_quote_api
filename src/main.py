@@ -11,6 +11,14 @@ async def root():
 async def all_quotes():
     return _services.get_all_quotes()
 
+@app.get("/by_name")
+async def quote_by_name(name: str):
+    return _services.get_quote_by_name(name)
+
+@app.get("/by_tag")
+async def quote_by_tag(tag: str):
+    return _services.get_quote_by_tag(tag)
+
 @app.get("/random")
 async def random_quote():
     return _services.get_random_quote()

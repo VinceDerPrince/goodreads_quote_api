@@ -10,3 +10,7 @@ async def root():
 @app.get("/quotes")
 async def all_quotes():
     return _services.get_all_quotes()
+
+@app.get("/random")
+async def random_quote():
+    return _services.get_random_quote()

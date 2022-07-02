@@ -20,7 +20,6 @@ def popular_quotes(page: int) -> List[str]:
     quotes = [quote.text for quote in raw_quotes]
     output = dict()
     for i in range(len(quotes)):
-        print(quotes[i])
         encode = quotes[i].encode(encoding="UTF-8", errors="ignore").decode()
         clean_text = " ".join([word for word in encode.split()])
         if "tags:" in clean_text:

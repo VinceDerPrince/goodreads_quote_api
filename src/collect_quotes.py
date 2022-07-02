@@ -5,7 +5,7 @@ import json as _json
 def create_quote_dict() -> Dict:
     quotes = dict()
 
-    for page in range(100):
+    for page in range(101):
         if page not in quotes:
             quotes[page] = dict()
         

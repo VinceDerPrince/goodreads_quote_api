@@ -1,5 +1,5 @@
 # Goodreads.com Popular Quotes API
-An API to get the populart quotes from the site ![goodreads](https://www.goodreads.com/quotes).
+An API to get the populart quotes from the site [goodreads.com](https://www.goodreads.com/quotes).
 
 ## Features
 You can get:
